@@ -6,14 +6,37 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		1FE775372D5E4B6F00F95CAF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE775362D5E4B6F00F95CAF /* ContentView.swift */; };
+		1FE775452D5E4CF000F95CAF /* ContactsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE775442D5E4CF000F95CAF /* ContactsView.swift */; };
+		1FE775492D5E4DC800F95CAF /* NumbersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE775482D5E4DC800F95CAF /* NumbersView.swift */; };
+		1FE775512D5E528700F95CAF /* ContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE775502D5E528700F95CAF /* ContactView.swift */; };
+		1FE775592D5E5B5D00F95CAF /* ContactRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE775582D5E5B5D00F95CAF /* ContactRowView.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		1FE775312D5E4B6F00F95CAF /* ContactsList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContactsList.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FE775362D5E4B6F00F95CAF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1FE775442D5E4CF000F95CAF /* ContactsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsView.swift; sourceTree = "<group>"; };
+		1FE775482D5E4DC800F95CAF /* NumbersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumbersView.swift; sourceTree = "<group>"; };
+		1FE775502D5E528700F95CAF /* ContactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactView.swift; sourceTree = "<group>"; };
+		1FE775582D5E5B5D00F95CAF /* ContactRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactRowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		1FE775332D5E4B6F00F95CAF /* ContactsList */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = ContactsList;
+			sourceTree = "<group>";
+		};
+		1FE7755B2D5E6A2000F95CAF /* Services */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Services;
+			sourceTree = "<group>";
+		};
+		1FE7755D2D5E6A6000F95CAF /* Models */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -34,6 +57,9 @@
 			children = (
 				1FE775332D5E4B6F00F95CAF /* ContactsList */,
 				1FE775322D5E4B6F00F95CAF /* Products */,
+				1FE7755D2D5E6A6000F95CAF /* Models */,
+				1FE7755B2D5E6A2000F95CAF /* Services */,
+				1FE775602D5E6A9500F95CAF /* Views */,
 			);
 			sourceTree = "<group>";
 		};
@@ -43,6 +69,18 @@
 				1FE775312D5E4B6F00F95CAF /* ContactsList.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		1FE775602D5E6A9500F95CAF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1FE775482D5E4DC800F95CAF /* NumbersView.swift */,
+				1FE775362D5E4B6F00F95CAF /* ContentView.swift */,
+				1FE775502D5E528700F95CAF /* ContactView.swift */,
+				1FE775442D5E4CF000F95CAF /* ContactsView.swift */,
+				1FE775582D5E5B5D00F95CAF /* ContactRowView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -62,6 +100,8 @@
 			);
 			fileSystemSynchronizedGroups = (
 				1FE775332D5E4B6F00F95CAF /* ContactsList */,
+				1FE7755B2D5E6A2000F95CAF /* Services */,
+				1FE7755D2D5E6A6000F95CAF /* Models */,
 			);
 			name = ContactsList;
 			packageProductDependencies = (
@@ -119,6 +159,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FE775452D5E4CF000F95CAF /* ContactsView.swift in Sources */,
+				1FE775372D5E4B6F00F95CAF /* ContentView.swift in Sources */,
+				1FE775512D5E528700F95CAF /* ContactView.swift in Sources */,
+				1FE775592D5E5B5D00F95CAF /* ContactRowView.swift in Sources */,
+				1FE775492D5E4DC800F95CAF /* NumbersView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
